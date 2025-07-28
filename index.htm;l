@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessenia Carol | Web Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <div class="container">
+      <img src="assets/profile.jpg" alt="Profile picture of Jessenia Carol" class="profile-pic">
+      <h1>Jessenia Carol</h1>
+      <p>Cybersecurity Enthusiast | Web Developer | Architect of Secure Systems</p>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m Jessenia Carol, a Computer Science Engineering student with a passion for cybersecurity, front-end development, and secure system design. I completed a virtual experience program in Cybersecurity by Deloitte and have working knowledge of agile and waterfall project methodologies.</p>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js, Git, GitHub</li>
+        <li>Cybersecurity Awareness</li>
+        <li>Project Management – Agile & Waterfall</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="assets/project1.png" alt="Secure Login Page">
+        <h3>Secure Login Page</h3>
+        <p>Front-end login form with basic validation, conceptual password protection using JavaScript.</p>
+        <a href="https://github.com/jesscseina" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      </div>
+      <div class="project">
+        <img src="assets/project2.png" alt="Portfolio Website">
+        <h3>Portfolio Website</h3>
+        <p>This responsive website built with HTML/CSS/JS is designed to showcase my resume, projects, and skills.</p>
+        <a href="https://github.com/jesscseina" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      </div>
+      <div class="project">
+        <img src="assets/project3.png" alt="Task Manager App">
+        <h3>Task Manager App</h3>
+        <p>Simple task-tracking application with local storage and minimal UI for productivity use.</p>
+        <a href="https://github.com/jesscseina" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <h2>Certificates</h2>
+      <div class="certificate">
+        <img src="assets/certificate1.jpg" alt="Deloitte Cybersecurity Certificate">
+        <p>Deloitte Cybersecurity Virtual Experience Program – Forage</p>
+      </div>
+      <div class="certificate">
+        <img src="assets/certificate2.jpg" alt="Agile Project Management Certificate">
+        <p>Project Management & Agile Methodologies – Coursera</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" name="name" placeholder="Your Name" required>
+
+        <label for="email">Your Email</label>
+        <input id="email" type="email" name="email" placeholder="Your Email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Connect with me:</p>
+      <a href="https://www.linkedin.com/in/jessenia-carol-8ab483314" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/jesscseina" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <p>&copy; 2025 Jessenia Carol</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
